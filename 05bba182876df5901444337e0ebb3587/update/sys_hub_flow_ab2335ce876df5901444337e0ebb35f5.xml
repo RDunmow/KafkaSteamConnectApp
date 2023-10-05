@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=38548000,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>kafka_consumer__topic_bob</internal_name>
+        <label_cache>[{"name":"Kafka Message_1.messages","label":"Trigger - Kafka Message➛Messages","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"KafkaMessageCollection","child_label":"Message","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"MessageKafka"}},{"name":"935f02a7-52be-47b1-a91c-d6832d1a9a27.item.Key","label":"1 - For Each➛Message➛Key","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"935f02a7-52be-47b1-a91c-d6832d1a9a27.item.Payload","label":"1 - For Each➛Message➛Payload","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
+        <master_snapshot>4224b14287adf5901444337e0ebb351e</master_snapshot>
+        <name>Kafka Consumer - Topic Bob</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>9e24b14287adf5901444337e0ebb3550</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:21:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab2335ce876df5901444337e0ebb35f5</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Kafka Consumer - Topic Bob</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_update_name>sys_hub_flow_ab2335ce876df5901444337e0ebb35f5</sys_update_name>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:04:21</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=ab2335ce876df5901444337e0ebb35f5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ab2335ce876df5901444337e0ebb35f5"/>
+    <sys_kafka_flow_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <flow display_value="Kafka Consumer - Topic Bob">ab2335ce876df5901444337e0ebb35f5</flow>
+        <initial_offset>latest</initial_offset>
+        <is_batched>true</is_batched>
+        <max_messages>0</max_messages>
+        <message_handling>dynamic</message_handling>
+        <name/>
+        <sys_class_name>sys_kafka_flow_trigger</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:26:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9e24b14287adf5901444337e0ebb3550</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 11:26:05</sys_updated_on>
+        <topic>snc.bob</topic>
+    </sys_kafka_flow_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=ab2335ce876df5901444337e0ebb35f5"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=ab2335ce876df5901444337e0ebb35f5^sys_idNOT INaff33d0287adf5901444337e0ebb3572"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Kafka Consumer - Topic Bob">ab2335ce876df5901444337e0ebb35f5</flow>
+        <name>Kafka Message</name>
+        <remote_sys_id/>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:25:21</sys_created_on>
+        <sys_id>aff33d0287adf5901444337e0ebb3572</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:04:21</sys_updated_on>
+        <trigger_definition display_value="Kafka Message">3d4c0d4177213010f649c38cff5a9941</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>kafka_flow_trigger</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=aff33d0287adf5901444337e0ebb3572"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>aff33d0287adf5901444337e0ebb3572</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:25:21</sys_created_on>
+        <sys_id>e3f33d0287adf5901444337e0ebb3574</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 11:25:21</sys_updated_on>
+        <value/>
+        <variable display_value="Enter the number of messages">5e2ee50d77213010f649c38cff5a991e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>aff33d0287adf5901444337e0ebb3572</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:25:21</sys_created_on>
+        <sys_id>ebf33d0287adf5901444337e0ebb3574</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 11:25:21</sys_updated_on>
+        <value>snc.bob</value>
+        <variable display_value="Topic">0735e54577213010f649c38cff5a99f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_3d4c0d4177213010f649c38cff5a9941^id=aff33d0287adf5901444337e0ebb3572"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=ab2335ce876df5901444337e0ebb35f5"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=ab2335ce876df5901444337e0ebb35f5^sys_idNOT IN6b2335ce876df5901444337e0ebb35f6"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ab2335ce876df5901444337e0ebb35f5</id>
+        <name>Kafka Consumer - Topic Bob</name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:21:47</sys_created_on>
+        <sys_id>6b2335ce876df5901444337e0ebb35f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 11:21:47</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=6b2335ce876df5901444337e0ebb35f6"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=ab2335ce876df5901444337e0ebb35f5^sys_idNOT INebf33d0287adf5901444337e0ebb356c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Message,child_name=MessageKafka,child_type=object,child_type_label=Object,co_type_name=FD4b3604d6b229359078515fb18d004168,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>messages</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Messages</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Kafka Consumer - Topic Bob">ab2335ce876df5901444337e0ebb35f5</model>
+        <model_id>ab2335ce876df5901444337e0ebb35f5</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_ab2335ce876df5901444337e0ebb35f5</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:25:20</sys_created_on>
+        <sys_id>ebf33d0287adf5901444337e0ebb356c</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:04:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ebf33d0287adf5901444337e0ebb356c"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=ab2335ce876df5901444337e0ebb35f5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ab2335ce876df5901444337e0ebb35f5"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=ab2335ce876df5901444337e0ebb35f5^sys_idNOT IN2ff33d0287adf5901444337e0ebb3597"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Kafka Consumer - Topic Bob">ab2335ce876df5901444337e0ebb35f5</flow>
+        <order>3</order>
+        <parent_ui_id>a4044661-64e1-4a95-a888-d212f7f81a90</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:25:21</sys_created_on>
+        <sys_id>2ff33d0287adf5901444337e0ebb3597</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:07:34</sys_updated_on>
+        <ui_id>f01060cf-19c1-448e-b41a-975171380f84</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2ff33d0287adf5901444337e0ebb3597"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2ff33d0287adf5901444337e0ebb3597</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:25:21</sys_created_on>
+        <sys_id>63f33d0287adf5901444337e0ebb359a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 11:25:21</sys_updated_on>
+        <value>x_snc_kafka_messen_message</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2ff33d0287adf5901444337e0ebb3597"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>2ff33d0287adf5901444337e0ebb3597</id>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:25:21</sys_created_on>
+        <sys_id>2ff33d0287adf5901444337e0ebb3599</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 11:25:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>2ff33d0287adf5901444337e0ebb3597</id>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:25:21</sys_created_on>
+        <sys_id>eff33d0287adf5901444337e0ebb3599</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 21:23:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>key={{935f02a7-52be-47b1-a91c-d6832d1a9a27.item.Key}}^message={{935f02a7-52be-47b1-a91c-d6832d1a9a27.item.Payload}}^message_type=received</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2ff33d0287adf5901444337e0ebb3597"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2ff33d0287adf5901444337e0ebb3597"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ab2335ce876df5901444337e0ebb35f5"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=ab2335ce876df5901444337e0ebb35f5^sys_idNOT IN253680d6c3293590d14320bdc0013178,2ff33d0287adf5901444337e0ebb3576"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">693680d6c3293590d14320bdc0013177</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Kafka Consumer - Topic Bob">ab2335ce876df5901444337e0ebb35f5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>935f02a7-52be-47b1-a91c-d6832d1a9a27</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 22:04:10</sys_created_on>
+        <sys_id>253680d6c3293590d14320bdc0013178</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:04:21</sys_updated_on>
+        <ui_id>a4044661-64e1-4a95-a888-d212f7f81a90</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=253680d6c3293590d14320bdc0013178"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>253680d6c3293590d14320bdc0013178</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 22:04:11</sys_created_on>
+        <sys_id>a93680d6c3293590d14320bdc001317b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:04:11</sys_updated_on>
+        <value>This is not a message I just sent</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=253680d6c3293590d14320bdc0013178"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>253680d6c3293590d14320bdc0013178</id>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 22:04:11</sys_created_on>
+        <sys_id>293680d6c3293590d14320bdc001317b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:04:11</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{935f02a7-52be-47b1-a91c-d6832d1a9a27.item.Key}}!=x_snc_kafka_messen_message</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>253680d6c3293590d14320bdc0013178</id>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 22:04:11</sys_created_on>
+        <sys_id>653680d6c3293590d14320bdc001317b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:04:11</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=253680d6c3293590d14320bdc0013178"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=253680d6c3293590d14320bdc0013178"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">eff33d0287adf5901444337e0ebb3575</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Kafka Consumer - Topic Bob">ab2335ce876df5901444337e0ebb35f5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:25:21</sys_created_on>
+        <sys_id>2ff33d0287adf5901444337e0ebb3576</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:04:21</sys_updated_on>
+        <ui_id>935f02a7-52be-47b1-a91c-d6832d1a9a27</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2ff33d0287adf5901444337e0ebb3576"/>
+    <sys_element_mapping action="delete_multiple" query="id=2ff33d0287adf5901444337e0ebb3576"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>2ff33d0287adf5901444337e0ebb3576</id>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:25:21</sys_created_on>
+        <sys_id>63f33d0287adf5901444337e0ebb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 11:25:21</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{Kafka Message_1.messages}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2ff33d0287adf5901444337e0ebb3576"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2ff33d0287adf5901444337e0ebb3576"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ab2335ce876df5901444337e0ebb35f5"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=ab2335ce876df5901444337e0ebb35f5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ab2335ce876df5901444337e0ebb35f5^sys_idNOT INa7f33d0287adf5901444337e0ebb3570"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>messages</element>
+        <help/>
+        <hint/>
+        <label>Messages</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ab2335ce876df5901444337e0ebb35f5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:25:21</sys_created_on>
+        <sys_id>a7f33d0287adf5901444337e0ebb3570</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 11:25:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ab2335ce876df5901444337e0ebb35f5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ab2335ce876df5901444337e0ebb35f5"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ab2335ce876df5901444337e0ebb35f5"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>kafka_consumer__topic_bob</internal_name>
+        <label_cache>[{"name":"Kafka Message_1.messages","label":"Trigger - Kafka Message➛Messages","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"KafkaMessageCollection","child_label":"Message","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"MessageKafka"}},{"name":"935f02a7-52be-47b1-a91c-d6832d1a9a27.item.Key","label":"1 - For Each➛Message➛Key","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"935f02a7-52be-47b1-a91c-d6832d1a9a27.item.Payload","label":"1 - For Each➛Message➛Payload","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Kafka Consumer - Topic Bob</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Kafka Consumer - Topic Bob">ab2335ce876df5901444337e0ebb35f5</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:26:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4224b14287adf5901444337e0ebb351e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:04:18</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=4224b14287adf5901444337e0ebb351e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4224b14287adf5901444337e0ebb351e"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=4224b14287adf5901444337e0ebb351e^sys_idNOT INd624b14287adf5901444337e0ebb3542"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Kafka Consumer - Topic Bob">4224b14287adf5901444337e0ebb351e</flow>
+        <name>Kafka Message</name>
+        <remote_sys_id/>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:26:04</sys_created_on>
+        <sys_id>d624b14287adf5901444337e0ebb3542</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:04:21</sys_updated_on>
+        <trigger_definition display_value="Kafka Message">3d4c0d4177213010f649c38cff5a9941</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>kafka_flow_trigger</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d624b14287adf5901444337e0ebb3542"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d624b14287adf5901444337e0ebb3542</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:26:04</sys_created_on>
+        <sys_id>9a24b14287adf5901444337e0ebb3543</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 11:26:04</sys_updated_on>
+        <value>snc.bob</value>
+        <variable display_value="Topic">0735e54577213010f649c38cff5a99f4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d624b14287adf5901444337e0ebb3542</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:26:04</sys_created_on>
+        <sys_id>d624b14287adf5901444337e0ebb3543</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 11:26:04</sys_updated_on>
+        <value/>
+        <variable display_value="Enter the number of messages">5e2ee50d77213010f649c38cff5a991e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_3d4c0d4177213010f649c38cff5a9941^id=d624b14287adf5901444337e0ebb3542"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=4224b14287adf5901444337e0ebb351e"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=4224b14287adf5901444337e0ebb351e^sys_idNOT IN0e24b14287adf5901444337e0ebb351e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>4224b14287adf5901444337e0ebb351e</id>
+        <name>Kafka Consumer - Topic Bob</name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:26:04</sys_created_on>
+        <sys_id>0e24b14287adf5901444337e0ebb351e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 11:26:04</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=0e24b14287adf5901444337e0ebb351e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=4224b14287adf5901444337e0ebb351e^sys_idNOT IN4224b14287adf5901444337e0ebb3522"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Message,child_name=MessageKafka,child_type=object,child_type_label=Object,co_type_name=FD4b3604d6b229359078515fb18d004168,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>messages</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Messages</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Kafka Consumer - Topic Bob">4224b14287adf5901444337e0ebb351e</model>
+        <model_id>4224b14287adf5901444337e0ebb351e</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_4224b14287adf5901444337e0ebb351e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:26:04</sys_created_on>
+        <sys_id>4224b14287adf5901444337e0ebb3522</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:04:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4224b14287adf5901444337e0ebb3522"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=4224b14287adf5901444337e0ebb351e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4224b14287adf5901444337e0ebb351e"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=4224b14287adf5901444337e0ebb351e^sys_idNOT INde24b14287adf5901444337e0ebb3540"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Kafka Consumer - Topic Bob">4224b14287adf5901444337e0ebb351e</flow>
+        <order>3</order>
+        <parent_ui_id>a4044661-64e1-4a95-a888-d212f7f81a90</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:26:04</sys_created_on>
+        <sys_id>de24b14287adf5901444337e0ebb3540</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:04:18</sys_updated_on>
+        <ui_id>f01060cf-19c1-448e-b41a-975171380f84</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=de24b14287adf5901444337e0ebb3540"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>de24b14287adf5901444337e0ebb3540</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:26:04</sys_created_on>
+        <sys_id>d224b14287adf5901444337e0ebb3542</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 11:26:04</sys_updated_on>
+        <value>x_snc_kafka_messen_message</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=de24b14287adf5901444337e0ebb3540"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>de24b14287adf5901444337e0ebb3540</id>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:26:04</sys_created_on>
+        <sys_id>9e24b14287adf5901444337e0ebb3541</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 11:26:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>de24b14287adf5901444337e0ebb3540</id>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:26:04</sys_created_on>
+        <sys_id>5224b14287adf5901444337e0ebb3542</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 21:16:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>key={{935f02a7-52be-47b1-a91c-d6832d1a9a27.item.Key}}^message={{935f02a7-52be-47b1-a91c-d6832d1a9a27.item.Payload}}^message_type=received</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=de24b14287adf5901444337e0ebb3540"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=de24b14287adf5901444337e0ebb3540"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=4224b14287adf5901444337e0ebb351e"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=4224b14287adf5901444337e0ebb351e^sys_idNOT IN0a24b14287adf5901444337e0ebb3537,cb3604d6c3293590d14320bdc0013164"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">eff33d0287adf5901444337e0ebb3575</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Kafka Consumer - Topic Bob">4224b14287adf5901444337e0ebb351e</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:26:04</sys_created_on>
+        <sys_id>0a24b14287adf5901444337e0ebb3537</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:04:18</sys_updated_on>
+        <ui_id>935f02a7-52be-47b1-a91c-d6832d1a9a27</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=0a24b14287adf5901444337e0ebb3537"/>
+    <sys_element_mapping action="delete_multiple" query="id=0a24b14287adf5901444337e0ebb3537"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>0a24b14287adf5901444337e0ebb3537</id>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:26:04</sys_created_on>
+        <sys_id>ca24b14287adf5901444337e0ebb353a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 11:26:04</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{Kafka Message_1.messages}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=0a24b14287adf5901444337e0ebb3537"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0a24b14287adf5901444337e0ebb3537"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">693680d6c3293590d14320bdc0013177</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Kafka Consumer - Topic Bob">4224b14287adf5901444337e0ebb351e</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>935f02a7-52be-47b1-a91c-d6832d1a9a27</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 22:04:17</sys_created_on>
+        <sys_id>cb3604d6c3293590d14320bdc0013164</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:04:18</sys_updated_on>
+        <ui_id>a4044661-64e1-4a95-a888-d212f7f81a90</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=cb3604d6c3293590d14320bdc0013164"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>cb3604d6c3293590d14320bdc0013164</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 22:04:17</sys_created_on>
+        <sys_id>033604d6c3293590d14320bdc0013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:04:17</sys_updated_on>
+        <value>This is not a message I just sent</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cb3604d6c3293590d14320bdc0013164"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>cb3604d6c3293590d14320bdc0013164</id>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 22:04:17</sys_created_on>
+        <sys_id>8f3604d6c3293590d14320bdc0013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:04:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{935f02a7-52be-47b1-a91c-d6832d1a9a27.item.Key}}!=x_snc_kafka_messen_message</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>cb3604d6c3293590d14320bdc0013164</id>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 22:04:17</sys_created_on>
+        <sys_id>cb3604d6c3293590d14320bdc0013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:04:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=cb3604d6c3293590d14320bdc0013164"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cb3604d6c3293590d14320bdc0013164"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=4224b14287adf5901444337e0ebb351e"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=4224b14287adf5901444337e0ebb351e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_4224b14287adf5901444337e0ebb351e^sys_idNOT IN0624b14287adf5901444337e0ebb352f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>messages</element>
+        <help/>
+        <hint/>
+        <label>Messages</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4224b14287adf5901444337e0ebb351e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:26:04</sys_created_on>
+        <sys_id>0624b14287adf5901444337e0ebb352f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 11:26:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_4224b14287adf5901444337e0ebb351e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_4224b14287adf5901444337e0ebb351e"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_4224b14287adf5901444337e0ebb351e"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>ab2335ce876df5901444337e0ebb35f5</sys_id>
+        <latest_snapshot>4224b14287adf5901444337e0ebb351e</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patchrtp-07-06-2023_07-06-2023_1408.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=ab2335ce876df5901444337e0ebb35f5^sys_idNOT IN0324b14287adf5901444337e0ebb3574"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"0324b14287adf5901444337e0ebb3574","name":"plan","plan_signature":null}}</plan>
+        <plan_id>ab2335ce876df5901444337e0ebb35f5</plan_id>
+        <snapshot>43f6081ac3293590d14320bdc00131d1</snapshot>
+        <sys_created_by>richard.dunmow</sys_created_by>
+        <sys_created_on>2023-09-29 11:26:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0324b14287adf5901444337e0ebb3574</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>richard.dunmow</sys_updated_by>
+        <sys_updated_on>2023-09-29 22:04:21</sys_updated_on>
+        <trigger display_value="">9e24b14287adf5901444337e0ebb3550</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=ab2335ce876df5901444337e0ebb35f5"/>
+</record_update>
