@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_dictionary">
+    <ais_dictionary action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <auto_refresh>24</auto_refresh>
+        <blocked_field/>
+        <case_sensitive>false</case_sensitive>
+        <data_source>x_snc_kafka_messen_message</data_source>
+        <derived>true</derived>
+        <field/>
+        <label>kafka-messenger Search Profile Default Spell Check Dictionary</label>
+        <last_derived>2023-10-06 10:57:29</last_derived>
+        <locale>en</locale>
+        <name>x_snc_kafka_messen_kafka_messenger_search_profile_default_spell_check_dictionary</name>
+        <publish_id>d1dee8f9-23cb-4413-80b3-dacde7681e7d</publish_id>
+        <punctuation_sensitive>false</punctuation_sensitive>
+        <state>PUBLISHED</state>
+        <sys_class_name>ais_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 10:54:43</sys_created_on>
+        <sys_id>1b10b9144771311099abb09b416d43e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_kafka_messen_kafka_messenger_search_profile_default_spell_check_dictionary</sys_name>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_update_name>ais_dictionary_1b10b9144771311099abb09b416d43e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 10:54:43</sys_updated_on>
+        <type>SPELLCHECK</type>
+    </ais_dictionary>
+</record_update>

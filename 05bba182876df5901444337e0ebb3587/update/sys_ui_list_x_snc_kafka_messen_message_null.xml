@@ -3,62 +3,62 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_snc_kafka_messen_message" element="NULL" name="x_snc_kafka_messen_message" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ba5c096c3293590d14320bdc0013169</list_id>
+            <list_id display_value="x_snc_kafka_messen_message" element="NULL" name="x_snc_kafka_messen_message" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea1492004739351099abb09b416d43ad</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>richard.dunmow</sys_created_by>
-            <sys_created_on>2023-09-29 22:01:50</sys_created_on>
-            <sys_id>87a5c096c3293590d14320bdc001316a</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-05 18:53:28</sys_created_on>
+            <sys_id>ea1492004739351099abb09b416d43ae</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>richard.dunmow</sys_updated_by>
-            <sys_updated_on>2023-09-29 22:01:50</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-05 18:53:28</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>key</element>
-            <list_id display_value="x_snc_kafka_messen_message" element="NULL" name="x_snc_kafka_messen_message" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ba5c096c3293590d14320bdc0013169</list_id>
+            <list_id display_value="x_snc_kafka_messen_message" element="NULL" name="x_snc_kafka_messen_message" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea1492004739351099abb09b416d43ad</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>richard.dunmow</sys_created_by>
-            <sys_created_on>2023-09-29 22:01:50</sys_created_on>
-            <sys_id>cba5c096c3293590d14320bdc001316a</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-05 18:53:28</sys_created_on>
+            <sys_id>e21492004739351099abb09b416d43af</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>richard.dunmow</sys_updated_by>
-            <sys_updated_on>2023-09-29 22:01:50</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-05 18:53:28</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>message</element>
-            <list_id display_value="x_snc_kafka_messen_message" element="NULL" name="x_snc_kafka_messen_message" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ba5c096c3293590d14320bdc0013169</list_id>
+            <list_id display_value="x_snc_kafka_messen_message" element="NULL" name="x_snc_kafka_messen_message" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea1492004739351099abb09b416d43ad</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>richard.dunmow</sys_created_by>
-            <sys_created_on>2023-09-29 22:01:50</sys_created_on>
-            <sys_id>03a5c096c3293590d14320bdc001316b</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-05 18:53:28</sys_created_on>
+            <sys_id>e61492004739351099abb09b416d43af</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>richard.dunmow</sys_updated_by>
-            <sys_updated_on>2023-09-29 22:01:50</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-05 18:53:28</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>message_type</element>
-            <list_id display_value="x_snc_kafka_messen_message" element="NULL" name="x_snc_kafka_messen_message" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0ba5c096c3293590d14320bdc0013169</list_id>
+            <list_id display_value="x_snc_kafka_messen_message" element="NULL" name="x_snc_kafka_messen_message" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ea1492004739351099abb09b416d43ad</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>richard.dunmow</sys_created_by>
-            <sys_created_on>2023-09-29 22:01:50</sys_created_on>
-            <sys_id>47a5c096c3293590d14320bdc001316b</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-05 18:53:28</sys_created_on>
+            <sys_id>ea1492004739351099abb09b416d43af</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>richard.dunmow</sys_updated_by>
-            <sys_updated_on>2023-09-29 22:01:50</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-05 18:53:28</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -71,19 +71,19 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>richard.dunmow</sys_created_by>
-            <sys_created_on>2023-09-29 22:01:50</sys_created_on>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-05 18:53:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0ba5c096c3293590d14320bdc0013169</sys_id>
+            <sys_id>ea1492004739351099abb09b416d43ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_snc_kafka_messen_message</sys_name>
-            <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+            <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
             <sys_policy/>
-            <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+            <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
             <sys_update_name>sys_ui_list_x_snc_kafka_messen_message_null</sys_update_name>
-            <sys_updated_by>richard.dunmow</sys_updated_by>
-            <sys_updated_on>2023-09-29 22:01:50</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-05 18:53:28</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

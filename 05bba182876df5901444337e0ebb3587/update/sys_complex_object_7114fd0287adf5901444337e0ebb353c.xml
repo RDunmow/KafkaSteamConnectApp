@@ -14,9 +14,9 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>FDbd14fd0268adf5903eaea61491dc493b</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name>sys_complex_object_7114fd0287adf5901444337e0ebb353c</sys_update_name>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 11:25:46</sys_updated_on>

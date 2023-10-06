@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>beb1c412c3293590d14320bdc00131dc</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Kafka Publish Message</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_beb1c412c3293590d14320bdc00131dc</sys_update_name>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:03:01</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 17:53:39</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -48,10 +48,10 @@
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:02:56</sys_created_on>
         <sys_id>43e54896c3293590d14320bdc00131e1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:02:56</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 17:53:26</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a45d4613-7a55-444e-b057-866dfbfb2ad7\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">47e54896c3293590d14320bdc00131c7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -87,10 +87,10 @@
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 21:58:26</sys_created_on>
         <sys_id>19e40056c3293590d14320bdc0013110</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:02:55</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 17:53:26</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=19e40056c3293590d14320bdc0013110"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -101,10 +101,10 @@
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 21:58:26</sys_created_on>
         <sys_id>29e40056c3293590d14320bdc0013116</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 21:58:26</sys_updated_on>
-        <value>bob</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 17:53:26</sys_updated_on>
+        <value/>
         <variable display_value="Topic">511ee456ff2130105cf343d0653bf1c0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -166,15 +166,29 @@
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 21:58:26</sys_created_on>
         <sys_id>21e40056c3293590d14320bdc0013116</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 21:58:26</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 17:53:26</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_60aca416ff2130105cf343d0653bf145</table>
-        <value/>
+        <value>{{action.topic}}</value>
     </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=19e40056c3293590d14320bdc0013110"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=19e40056c3293590d14320bdc0013110"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=19e40056c3293590d14320bdc0013110"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=19e40056c3293590d14320bdc0013110"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=19e40056c3293590d14320bdc0013110^sys_idNOT INa8ff0f5c47fdb1103a47db1d416d43b4"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>topic</input_name>
+        <instance>19e40056c3293590d14320bdc0013110</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"topic":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 17:53:26</sys_created_on>
+        <sys_id>a8ff0f5c47fdb1103a47db1d416d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 17:53:26</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_19e40056c3293590d14320bdc0013110"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Kafka Publish Message">beb1c412c3293590d14320bdc00131dc</action>
@@ -194,7 +208,7 @@
         <sys_created_on>2023-09-29 22:02:55</sys_created_on>
         <sys_id>c7e5c496c3293590d14320bdc0013147</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 22:02:55</sys_updated_on>
     </sys_hub_step_instance>
@@ -226,6 +240,7 @@
         <table>var__m_sys_flow_step_definition_input_2429af02b3331300176b051a16a8dcab</table>
         <value>{"type":"ADV_NV","value":[{"name":"ID","value":"{{action.message_record.sys_id}}","attributes":{}},{"name":"Message","value":"{{action.message_record.message}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Key","value":"{{action.message_record.key}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Created","value":"{{action.message_record.sys_created_on}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Created By","value":"{{action.message_record.sys_created_by}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
     </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=c7e5c496c3293590d14320bdc0013147"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=c7e5c496c3293590d14320bdc0013147"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=c7e5c496c3293590d14320bdc0013147"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=c7e5c496c3293590d14320bdc0013147"/>
@@ -298,7 +313,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 21:58:26</sys_updated_on>
@@ -382,7 +397,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 21:58:26</sys_updated_on>
@@ -469,7 +484,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 22:02:55</sys_updated_on>
@@ -552,14 +567,14 @@
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:02:55</sys_created_on>
         <sys_id>c3e54896c3293590d14320bdc00131cc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:02:59</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 17:53:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -601,9 +616,9 @@
         <sys_id>55e40056c3293590d14320bdc001310e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 21:58:26</sys_updated_on>
@@ -624,9 +639,9 @@
         <sys_id>d5e40056c3293590d14320bdc001310a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 21:58:26</sys_updated_on>
@@ -649,9 +664,9 @@
         <sys_id>83e54896c3293590d14320bdc00131cb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 22:02:55</sys_updated_on>
@@ -672,9 +687,9 @@
         <sys_id>cfe54896c3293590d14320bdc00131dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 22:02:55</sys_updated_on>
@@ -686,17 +701,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Kafka Publish Message">beb1c412c3293590d14320bdc00131dc</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"fcf5c896c3293590d14320bdc0013186","name":"plan","plan_signature":null}}</plan>
-        <snapshot>64f5c896c3293590d14320bdc0013106</snapshot>
+        <snapshot>33ff8f5c47fdb1103a47db1d416d431f</snapshot>
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:03:02</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fcf5c896c3293590d14320bdc0013186</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:03:02</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 17:53:39</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>package_private</access>
@@ -727,7 +742,7 @@
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 22:03:00</sys_updated_on>
@@ -744,10 +759,10 @@
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:03:01</sys_created_on>
         <sys_id>14f5c896c3293590d14320bdc0013104</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:03:01</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 17:53:38</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a45d4613-7a55-444e-b057-866dfbfb2ad7\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">58f58896c3293590d14320bdc00131ea</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -783,10 +798,10 @@
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:03:00</sys_created_on>
         <sys_id>1cf58896c3293590d14320bdc00131e3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:03:00</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 17:53:38</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1cf58896c3293590d14320bdc00131e3"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -797,10 +812,10 @@
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:03:00</sys_created_on>
         <sys_id>dcf58896c3293590d14320bdc00131e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:03:00</sys_updated_on>
-        <value>bob</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 17:53:38</sys_updated_on>
+        <value/>
         <variable display_value="Topic">511ee456ff2130105cf343d0653bf1c0</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1cf58896c3293590d14320bdc00131e3"/>
@@ -834,15 +849,29 @@
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:03:00</sys_created_on>
         <sys_id>d4f58896c3293590d14320bdc00131e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:03:00</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 17:53:38</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_60aca416ff2130105cf343d0653bf145</table>
-        <value/>
+        <value>{{action.topic}}</value>
     </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=1cf58896c3293590d14320bdc00131e3"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=1cf58896c3293590d14320bdc00131e3"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=1cf58896c3293590d14320bdc00131e3"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=1cf58896c3293590d14320bdc00131e3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1cf58896c3293590d14320bdc00131e3^sys_idNOT INf3ff8f5c47fdb1103a47db1d416d4313"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>topic</input_name>
+        <instance>1cf58896c3293590d14320bdc00131e3</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"topic":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 17:53:38</sys_created_on>
+        <sys_id>f3ff8f5c47fdb1103a47db1d416d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 17:53:38</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_1cf58896c3293590d14320bdc00131e3"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Kafka Publish Message">d8f58896c3293590d14320bdc00131c1</action>
@@ -862,7 +891,7 @@
         <sys_created_on>2023-09-29 22:03:00</sys_created_on>
         <sys_id>50f58896c3293590d14320bdc00131dd</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 22:03:00</sys_updated_on>
     </sys_hub_step_instance>
@@ -894,6 +923,7 @@
         <table>var__m_sys_flow_step_definition_input_2429af02b3331300176b051a16a8dcab</table>
         <value>{"type":"ADV_NV","value":[{"name":"ID","value":"{{action.message_record.sys_id}}","attributes":{}},{"name":"Message","value":"{{action.message_record.message}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Key","value":"{{action.message_record.key}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Created","value":"{{action.message_record.sys_created_on}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Created By","value":"{{action.message_record.sys_created_by}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
     </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=50f58896c3293590d14320bdc00131dd"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=50f58896c3293590d14320bdc00131dd"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=50f58896c3293590d14320bdc00131dd"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=50f58896c3293590d14320bdc00131dd"/>
@@ -966,7 +996,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 22:03:00</sys_updated_on>
@@ -1050,7 +1080,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 22:03:00</sys_updated_on>
@@ -1137,7 +1167,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 22:03:00</sys_updated_on>
@@ -1220,14 +1250,14 @@
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:03:01</sys_created_on>
         <sys_id>9cf58896c3293590d14320bdc00131fb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:03:01</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 17:53:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1269,9 +1299,9 @@
         <sys_id>54f58896c3293590d14320bdc00131d6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 22:03:00</sys_updated_on>
@@ -1292,9 +1322,9 @@
         <sys_id>58f58896c3293590d14320bdc00131da</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 22:03:00</sys_updated_on>
@@ -1317,9 +1347,9 @@
         <sys_id>5cf58896c3293590d14320bdc00131fa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 22:03:00</sys_updated_on>
@@ -1340,9 +1370,9 @@
         <sys_id>d0f5c896c3293590d14320bdc0013101</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 22:03:01</sys_updated_on>
@@ -1353,6 +1383,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>beb1c412c3293590d14320bdc00131dc</sys_id>
         <latest_snapshot>d8f58896c3293590d14320bdc00131c1</latest_snapshot>
-        <compiler_build>glide-vancouver-07-06-2023__patchrtp-07-06-2023_07-06-2023_1408.zip</compiler_build>
+        <compiler_build>glide-vancouver-07-06-2023__patch1-08-30-2023_09-07-2023_2046.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

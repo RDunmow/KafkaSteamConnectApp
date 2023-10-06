@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=509626000,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-vancouver-07-06-2023__patch1-08-30-2023_09-07-2023_2046.zip</compiler_build>
+        <copied_from>0ccb37c6c3e53590d14320bdc00131f2</copied_from>
+        <copied_from_name>Send Message to Topic testing</copied_from_name>
+        <description/>
+        <internal_name>copy_of_send_message_to_topic_testing</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛message Record","reference":"x_snc_kafka_messen_message","reference_display":"message","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Copy of Send Message to Topic testing</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ae078e5c47b1311099abb09b416d4399</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Copy of Send Message to Topic testing</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_update_name>sys_hub_flow_ae078e5c47b1311099abb09b416d4399</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:54</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=ae078e5c47b1311099abb09b416d4399"/>
+    <sys_variable_value action="DELETE" query="document_key=ae078e5c47b1311099abb09b416d4399"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=ae078e5c47b1311099abb09b416d4399^sys_idNOT IN3e078e5c47b1311099abb09b416d43bf"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Copy of Send Message to Topic testing">ae078e5c47b1311099abb09b416d4399</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:54</sys_created_on>
+        <sys_id>3e078e5c47b1311099abb09b416d43bf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:54</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=3e078e5c47b1311099abb09b416d43bf"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3e078e5c47b1311099abb09b416d43bf</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:54</sys_created_on>
+        <sys_id>32078e5c47b1311099abb09b416d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:54</sys_updated_on>
+        <value>x_snc_kafka_messen_message</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3e078e5c47b1311099abb09b416d43bf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:54</sys_created_on>
+        <sys_id>7e078e5c47b1311099abb09b416d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:54</sys_updated_on>
+        <value>message_typeCHANGESTOto_send</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3e078e5c47b1311099abb09b416d43bf</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:54</sys_created_on>
+        <sys_id>ba078e5c47b1311099abb09b416d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:54</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=3e078e5c47b1311099abb09b416d43bf"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=ae078e5c47b1311099abb09b416d4399"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=ae078e5c47b1311099abb09b416d4399^sys_idNOT IN22078e5c47b1311099abb09b416d439b"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>ae078e5c47b1311099abb09b416d4399</id>
+        <name>Copy of Send Message to Topic testing</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:53</sys_created_on>
+        <sys_id>22078e5c47b1311099abb09b416d439b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:53</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=22078e5c47b1311099abb09b416d439b"/>
+    <sys_hub_flow_input action="DELETE" query="model=ae078e5c47b1311099abb09b416d4399^sys_idNOT IN26078e5c47b1311099abb09b416d43a4,7e078e5c47b1311099abb09b416d43a7,7e078e5c47b1311099abb09b416d43aa"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Copy of Send Message to Topic testing">ae078e5c47b1311099abb09b416d4399</model>
+        <model_id>ae078e5c47b1311099abb09b416d4399</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_ae078e5c47b1311099abb09b416d4399</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:53</sys_created_on>
+        <sys_id>26078e5c47b1311099abb09b416d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=26078e5c47b1311099abb09b416d43a4"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Copy of Send Message to Topic testing">ae078e5c47b1311099abb09b416d4399</model>
+        <model_id>ae078e5c47b1311099abb09b416d4399</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_ae078e5c47b1311099abb09b416d4399</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:53</sys_created_on>
+        <sys_id>7e078e5c47b1311099abb09b416d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=7e078e5c47b1311099abb09b416d43a7"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Copy of Send Message to Topic testing">ae078e5c47b1311099abb09b416d4399</model>
+        <model_id>ae078e5c47b1311099abb09b416d4399</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_ae078e5c47b1311099abb09b416d4399</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:53</sys_created_on>
+        <sys_id>7e078e5c47b1311099abb09b416d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=7e078e5c47b1311099abb09b416d43aa"/>
+    <sys_hub_flow_output action="DELETE" query="model=ae078e5c47b1311099abb09b416d4399"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=ae078e5c47b1311099abb09b416d4399"/>
+    <sys_hub_action_instance action="DELETE" query="flow=ae078e5c47b1311099abb09b416d4399^sys_idNOT INb6078e5c47b1311099abb09b416d43b6,b6078e5c47b1311099abb09b416d43bd"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Kafka Publish Message">d8f58896c3293590d14320bdc00131c1</action_type>
+        <action_type_parent display_value="Kafka Publish Message">beb1c412c3293590d14320bdc00131dc</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>d8f58896c3293590d14320bdc00131c1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Send Message to Topic testing">ae078e5c47b1311099abb09b416d4399</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:54</sys_created_on>
+        <sys_id>b6078e5c47b1311099abb09b416d43b6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:54</sys_updated_on>
+        <ui_id>798167fb-a02a-4bd0-a587-76f6b579b199</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=b6078e5c47b1311099abb09b416d43b6"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b6078e5c47b1311099abb09b416d43b6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:54</sys_created_on>
+        <sys_id>7e078e5c47b1311099abb09b416d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:54</sys_updated_on>
+        <value>testing</value>
+        <variable display_value="Topic">94f58896c3293590d14320bdc00131d7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=b6078e5c47b1311099abb09b416d43b6"/>
+    <sys_element_mapping action="DELETE">
+        <field>message_record</field>
+        <id>b6078e5c47b1311099abb09b416d43b6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:54</sys_created_on>
+        <sys_id>fa078e5c47b1311099abb09b416d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d8f58896c3293590d14320bdc00131c1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>topic</field>
+        <id>b6078e5c47b1311099abb09b416d43b6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:54</sys_created_on>
+        <sys_id>36078e5c47b1311099abb09b416d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_d8f58896c3293590d14320bdc00131c1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=b6078e5c47b1311099abb09b416d43b6"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=b6078e5c47b1311099abb09b416d43b6"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Send Message to Topic testing">ae078e5c47b1311099abb09b416d4399</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:54</sys_created_on>
+        <sys_id>b6078e5c47b1311099abb09b416d43bd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:54</sys_updated_on>
+        <ui_id>a5309870-53dd-45a0-b9f1-ca7497f65f7b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=b6078e5c47b1311099abb09b416d43bd"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b6078e5c47b1311099abb09b416d43bd</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:54</sys_created_on>
+        <sys_id>b6078e5c47b1311099abb09b416d43bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:54</sys_updated_on>
+        <value>x_snc_kafka_messen_message</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b6078e5c47b1311099abb09b416d43bd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:54</sys_created_on>
+        <sys_id>f2078e5c47b1311099abb09b416d43bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:54</sys_updated_on>
+        <value>message_type=sent</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=b6078e5c47b1311099abb09b416d43bd"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>b6078e5c47b1311099abb09b416d43bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:54</sys_created_on>
+        <sys_id>72078e5c47b1311099abb09b416d43bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>b6078e5c47b1311099abb09b416d43bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:54</sys_created_on>
+        <sys_id>fa078e5c47b1311099abb09b416d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>b6078e5c47b1311099abb09b416d43bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:54</sys_created_on>
+        <sys_id>be078e5c47b1311099abb09b416d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=b6078e5c47b1311099abb09b416d43bd"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=b6078e5c47b1311099abb09b416d43bd"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=ae078e5c47b1311099abb09b416d4399"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=ae078e5c47b1311099abb09b416d4399"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=ae078e5c47b1311099abb09b416d4399"/>
+    <sys_hub_flow_variable action="DELETE" query="model=ae078e5c47b1311099abb09b416d4399"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_ae078e5c47b1311099abb09b416d4399^sys_idNOT IN76078e5c47b1311099abb09b416d43ad,be078e5c47b1311099abb09b416d43a6,be078e5c47b1311099abb09b416d43a9"/>
+    <sys_documentation action="DELETE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ae078e5c47b1311099abb09b416d4399</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:54</sys_created_on>
+        <sys_id>76078e5c47b1311099abb09b416d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ae078e5c47b1311099abb09b416d4399</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:53</sys_created_on>
+        <sys_id>be078e5c47b1311099abb09b416d43a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ae078e5c47b1311099abb09b416d4399</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:53</sys_created_on>
+        <sys_id>be078e5c47b1311099abb09b416d43a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_ae078e5c47b1311099abb09b416d4399"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_ae078e5c47b1311099abb09b416d4399"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_ae078e5c47b1311099abb09b416d4399"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=ae078e5c47b1311099abb09b416d4399"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=ae078e5c47b1311099abb09b416d4399"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</application>
+        <file_path/>
+        <instance_id>661dcbc3db09f1d002d9172913961920</instance_id>
+        <instance_name>rdkafka</instance_name>
+        <name>sys_hub_flow_ae078e5c47b1311099abb09b416d4399</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=509626000,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build&gt;glide-vancouver-07-06-2023__patch1-08-30-2023_09-07-2023_2046.zip&lt;/compiler_build&gt;&lt;copied_from&gt;0ccb37c6c3e53590d14320bdc00131f2&lt;/copied_from&gt;&lt;copied_from_name&gt;Send Message to Topic testing&lt;/copied_from_name&gt;&lt;description/&gt;&lt;internal_name&gt;copy_of_send_message_to_topic_testing&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛message Record","reference":"x_snc_kafka_messen_message","reference_display":"message","type":"reference","base_type":"reference","attributes":{}}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;Copy of Send Message to Topic testing&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ae078e5c47b1311099abb09b416d4399&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Copy of Send Message to Topic testing&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen"&gt;05bba182876df5901444337e0ebb3587&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Kafka Messenger"&gt;05bba182876df5901444337e0ebb3587&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_ae078e5c47b1311099abb09b416d4399&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:54&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ae078e5c47b1311099abb09b416d4399"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=ae078e5c47b1311099abb09b416d4399"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=ae078e5c47b1311099abb09b416d4399^sys_idNOT IN3e078e5c47b1311099abb09b416d43bf"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Copy of Send Message to Topic testing"&gt;ae078e5c47b1311099abb09b416d4399&lt;/flow&gt;&lt;name&gt;Created or Updated&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;3e078e5c47b1311099abb09b416d43bf&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:54&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created or Updated"&gt;a45d9180c32222002841b63b12d3aea7&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create_or_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=3e078e5c47b1311099abb09b416d43bf"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;3e078e5c47b1311099abb09b416d43bf&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;32078e5c47b1311099abb09b416d43c1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:54&lt;/sys_updated_on&gt;&lt;value&gt;x_snc_kafka_messen_message&lt;/value&gt;&lt;variable display_value="Table"&gt;cf1e1980c32222002841b63b12d3aea0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;3e078e5c47b1311099abb09b416d43bf&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;7e078e5c47b1311099abb09b416d43c0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:54&lt;/sys_updated_on&gt;&lt;value&gt;message_typeCHANGESTOto_send&lt;/value&gt;&lt;variable display_value="Condition"&gt;707dd180c32222002841b63b12d3aecb&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;3e078e5c47b1311099abb09b416d43bf&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;ba078e5c47b1311099abb09b416d43c0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:54&lt;/sys_updated_on&gt;&lt;value&gt;unique_changes&lt;/value&gt;&lt;variable display_value="Run Trigger"&gt;2b9def50c31132002841b63b12d3ae5b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=3e078e5c47b1311099abb09b416d43bf"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=ae078e5c47b1311099abb09b416d4399"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=ae078e5c47b1311099abb09b416d4399^sys_idNOT IN22078e5c47b1311099abb09b416d439b"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;ae078e5c47b1311099abb09b416d4399&lt;/id&gt;&lt;name&gt;Copy of Send Message to Topic testing&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:53&lt;/sys_created_on&gt;&lt;sys_id&gt;22078e5c47b1311099abb09b416d439b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:53&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=22078e5c47b1311099abb09b416d439b"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=ae078e5c47b1311099abb09b416d4399^sys_idNOT IN26078e5c47b1311099abb09b416d43a4,7e078e5c47b1311099abb09b416d43a7,7e078e5c47b1311099abb09b416d43aa"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Copy of Send Message to Topic testing"&gt;ae078e5c47b1311099abb09b416d4399&lt;/model&gt;&lt;model_id&gt;ae078e5c47b1311099abb09b416d4399&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_ae078e5c47b1311099abb09b416d4399&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:53&lt;/sys_created_on&gt;&lt;sys_id&gt;26078e5c47b1311099abb09b416d43a4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Kafka Messenger"&gt;05bba182876df5901444337e0ebb3587&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:53&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=26078e5c47b1311099abb09b416d43a4"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Copy of Send Message to Topic testing"&gt;ae078e5c47b1311099abb09b416d4399&lt;/model&gt;&lt;model_id&gt;ae078e5c47b1311099abb09b416d4399&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_ae078e5c47b1311099abb09b416d4399&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:53&lt;/sys_created_on&gt;&lt;sys_id&gt;7e078e5c47b1311099abb09b416d43a7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Kafka Messenger"&gt;05bba182876df5901444337e0ebb3587&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:53&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7e078e5c47b1311099abb09b416d43a7"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Copy of Send Message to Topic testing"&gt;ae078e5c47b1311099abb09b416d4399&lt;/model&gt;&lt;model_id&gt;ae078e5c47b1311099abb09b416d4399&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_ae078e5c47b1311099abb09b416d4399&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:53&lt;/sys_created_on&gt;&lt;sys_id&gt;7e078e5c47b1311099abb09b416d43aa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Kafka Messenger"&gt;05bba182876df5901444337e0ebb3587&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:53&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7e078e5c47b1311099abb09b416d43aa"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=ae078e5c47b1311099abb09b416d4399"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=ae078e5c47b1311099abb09b416d4399"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=ae078e5c47b1311099abb09b416d4399^sys_idNOT INb6078e5c47b1311099abb09b416d43b6,b6078e5c47b1311099abb09b416d43bd"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Kafka Publish Message"&gt;d8f58896c3293590d14320bdc00131c1&lt;/action_type&gt;&lt;action_type_parent display_value="Kafka Publish Message"&gt;beb1c412c3293590d14320bdc00131dc&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;d8f58896c3293590d14320bdc00131c1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Copy of Send Message to Topic testing"&gt;ae078e5c47b1311099abb09b416d4399&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;b6078e5c47b1311099abb09b416d43b6&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Kafka Messenger"&gt;05bba182876df5901444337e0ebb3587&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:54&lt;/sys_updated_on&gt;&lt;ui_id&gt;798167fb-a02a-4bd0-a587-76f6b579b199&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=b6078e5c47b1311099abb09b416d43b6"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;b6078e5c47b1311099abb09b416d43b6&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;7e078e5c47b1311099abb09b416d43b8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:54&lt;/sys_updated_on&gt;&lt;value&gt;testing&lt;/value&gt;&lt;variable display_value="Topic"&gt;94f58896c3293590d14320bdc00131d7&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=b6078e5c47b1311099abb09b416d43b6"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;message_record&lt;/field&gt;&lt;id&gt;b6078e5c47b1311099abb09b416d43b6&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;fa078e5c47b1311099abb09b416d43b8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:54&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_d8f58896c3293590d14320bdc00131c1&lt;/table&gt;&lt;value&gt;{{Created or Updated_1.current}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;topic&lt;/field&gt;&lt;id&gt;b6078e5c47b1311099abb09b416d43b6&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;36078e5c47b1311099abb09b416d43b8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:54&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_d8f58896c3293590d14320bdc00131c1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=b6078e5c47b1311099abb09b416d43b6"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=b6078e5c47b1311099abb09b416d43b6"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Copy of Send Message to Topic testing"&gt;ae078e5c47b1311099abb09b416d4399&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;b6078e5c47b1311099abb09b416d43bd&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Kafka Messenger"&gt;05bba182876df5901444337e0ebb3587&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:54&lt;/sys_updated_on&gt;&lt;ui_id&gt;a5309870-53dd-45a0-b9f1-ca7497f65f7b&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=b6078e5c47b1311099abb09b416d43bd"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;b6078e5c47b1311099abb09b416d43bd&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;b6078e5c47b1311099abb09b416d43bf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:54&lt;/sys_updated_on&gt;&lt;value&gt;x_snc_kafka_messen_message&lt;/value&gt;&lt;variable display_value="Table"&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;b6078e5c47b1311099abb09b416d43bd&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;f2078e5c47b1311099abb09b416d43bf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:54&lt;/sys_updated_on&gt;&lt;value&gt;message_type=sent&lt;/value&gt;&lt;variable display_value="Fields"&gt;02d01916c31332002841b63b12d3aeee&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=b6078e5c47b1311099abb09b416d43bd"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;b6078e5c47b1311099abb09b416d43bd&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;72078e5c47b1311099abb09b416d43bf&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:54&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{Created or Updated_1.current}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;b6078e5c47b1311099abb09b416d43bd&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;fa078e5c47b1311099abb09b416d43be&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:54&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;b6078e5c47b1311099abb09b416d43bd&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;be078e5c47b1311099abb09b416d43be&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:54&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=b6078e5c47b1311099abb09b416d43bd"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=b6078e5c47b1311099abb09b416d43bd"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=ae078e5c47b1311099abb09b416d4399"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=ae078e5c47b1311099abb09b416d4399"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=ae078e5c47b1311099abb09b416d4399"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=ae078e5c47b1311099abb09b416d4399"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ae078e5c47b1311099abb09b416d4399^sys_idNOT IN76078e5c47b1311099abb09b416d43ad,be078e5c47b1311099abb09b416d43a6,be078e5c47b1311099abb09b416d43a9"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_ae078e5c47b1311099abb09b416d4399&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:54&lt;/sys_created_on&gt;&lt;sys_id&gt;76078e5c47b1311099abb09b416d43ad&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen"&gt;05bba182876df5901444337e0ebb3587&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Kafka Messenger"&gt;05bba182876df5901444337e0ebb3587&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:54&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_ae078e5c47b1311099abb09b416d4399&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:53&lt;/sys_created_on&gt;&lt;sys_id&gt;be078e5c47b1311099abb09b416d43a6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen"&gt;05bba182876df5901444337e0ebb3587&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Kafka Messenger"&gt;05bba182876df5901444337e0ebb3587&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:53&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_ae078e5c47b1311099abb09b416d4399&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-06 12:34:53&lt;/sys_created_on&gt;&lt;sys_id&gt;be078e5c47b1311099abb09b416d43a9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen"&gt;05bba182876df5901444337e0ebb3587&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Kafka Messenger"&gt;05bba182876df5901444337e0ebb3587&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-06 12:34:53&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ae078e5c47b1311099abb09b416d4399"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ae078e5c47b1311099abb09b416d4399"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ae078e5c47b1311099abb09b416d4399"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=ae078e5c47b1311099abb09b416d4399"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=ae078e5c47b1311099abb09b416d4399"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1182756974</payload_hash>
+        <record_name>Copy of Send Message to Topic testing</record_name>
+        <reverted_from/>
+        <source>fb829e0c47f5351099abb09b416d43d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 12:34:54</sys_created_on>
+        <sys_id>fe078e5c47b1311099abb09b416d43dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b04fbd43f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 12:34:54</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>36078e5c9db13110c5a04e82978b8adc</update_guid>
+        <update_guid_history>36078e5c9db13110c5a04e82978b8adc:1182756974,e6078e5c0ab131104207557dad8c0ca1:1767616720</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 17:51:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>76f35d948ec44814ae9cf45823c0c859</sys_id>
+        <sys_metadata>ae078e5c47b1311099abb09b416d4399</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Send Message to Topic testing</sys_name>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope_delete display_value="">62f78cf521c649649688d17ae2d5ca10</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_ae078e5c47b1311099abb09b416d4399</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_ae078e5c47b1311099abb09b416d4399">fe078e5c47b1311099abb09b416d43dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 17:51:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

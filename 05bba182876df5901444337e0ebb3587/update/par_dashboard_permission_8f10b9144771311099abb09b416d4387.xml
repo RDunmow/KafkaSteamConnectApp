@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Kafka Messenger">b1107914a9713110b82df6742c10f018</dashboard>
+        <group/>
+        <role display_value="x_snc_kafka_messen.admin" name="x_snc_kafka_messen.admin">94cbe102876df5901444337e0ebb35e8</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 10:54:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8f10b9144771311099abb09b416d4387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b1107914a9713110b82df6742c10f018</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_update_name>par_dashboard_permission_8f10b9144771311099abb09b416d4387</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 10:54:42</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

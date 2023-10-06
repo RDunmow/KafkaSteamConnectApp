@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="09ff3d105f231000b12e3572f2b4775d" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Kafka Messenger">412ce1c2876df5901444337e0ebb35a6</application>
+        <application display_value="">412ce1c2876df5901444337e0ebb35a6</application>
         <assessment/>
         <device_type/>
         <filter/>
@@ -22,14 +22,14 @@
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 10:51:03</sys_created_on>
         <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
-        <sys_domain_path>!!!/!!!/</sys_domain_path>
+        <sys_domain_path/>
         <sys_id>912ce1c2876df5901444337e0ebb35aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>message</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name>sys_app_module_912ce1c2876df5901444337e0ebb35aa</sys_update_name>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 10:51:03</sys_updated_on>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <search_context_config display_value="Kafka Messenger - Workspace Search">711079143271311019bef238a18e9d16</search_context_config>
+        <source display_value="Kafka Messenger - x_snc_kafka_messen_message">4b10b9144771311099abb09b416d43c1</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 10:54:42</sys_created_on>
+        <sys_id>0b10b9144771311099abb09b416d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_0b10b9144771311099abb09b416d43c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-06 10:54:42</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

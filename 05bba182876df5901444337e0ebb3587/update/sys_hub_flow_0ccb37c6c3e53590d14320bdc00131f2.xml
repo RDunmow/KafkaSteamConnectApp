@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2828000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=509626000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
@@ -13,7 +13,7 @@
         <internal_name>send_message_to_topic_bob</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛message Record","reference":"x_snc_kafka_messen_message","reference_display":"message","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <master_snapshot>b2860cd6c3293590d14320bdc00131f2</master_snapshot>
-        <name>Send Message to Topic Bob</name>
+        <name>Send Message to Topic testing</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -30,15 +30,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0ccb37c6c3e53590d14320bdc00131f2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Send Message to Topic Bob</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Send Message to Topic testing</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name>sys_hub_flow_0ccb37c6c3e53590d14320bdc00131f2</sys_update_name>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:05:40</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 18:52:18</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=0ccb37c6c3e53590d14320bdc00131f2"/>
@@ -64,7 +64,7 @@
         <sys_id>c7864cd6c3293590d14320bdc001318d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 22:05:39</sys_updated_on>
         <table>x_snc_kafka_messen_message</table>
@@ -74,29 +74,29 @@
         <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
         <identifier>0ccb37c6c3e53590d14320bdc00131f2</identifier>
         <runner>FDTriggerRunner</runner>
-        <sys_created_by>richard.dunmow</sys_created_by>
-        <sys_created_on>2023-09-29 22:05:39</sys_created_on>
-        <sys_id>47864cd6c3293590d14320bdc001318e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:05:39</sys_updated_on>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 18:52:17</sys_created_on>
+        <sys_id>c9d312004739351099abb09b416d4324</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 18:52:17</sys_updated_on>
         <trigger display_value="">c7864cd6c3293590d14320bdc001318d</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=0ccb37c6c3e53590d14320bdc00131f2^sys_idNOT IN47864cd6c3293590d14320bdc001318e"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=0ccb37c6c3e53590d14320bdc00131f2^sys_idNOT INc9d312004739351099abb09b416d4324"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=0ccb37c6c3e53590d14320bdc00131f2^sys_idNOT INb4ecf34ac3e53590d14320bdc0013165"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Send Message to Topic Bob">0ccb37c6c3e53590d14320bdc00131f2</flow>
+        <flow display_value="Send Message to Topic testing">0ccb37c6c3e53590d14320bdc00131f2</flow>
         <name>Created or Updated</name>
         <remote_sys_id/>
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 21:23:27</sys_created_on>
         <sys_id>b4ecf34ac3e53590d14320bdc0013165</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:05:39</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 18:52:18</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -201,7 +201,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Send Message to Topic Bob">0ccb37c6c3e53590d14320bdc00131f2</model>
+        <model display_value="Send Message to Topic testing">0ccb37c6c3e53590d14320bdc00131f2</model>
         <model_id>0ccb37c6c3e53590d14320bdc00131f2</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_0ccb37c6c3e53590d14320bdc00131f2</name>
@@ -224,14 +224,14 @@
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 21:23:27</sys_created_on>
         <sys_id>70ecf34ac3e53590d14320bdc0013160</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:05:39</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 18:52:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -285,7 +285,7 @@
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Send Message to Topic Bob">0ccb37c6c3e53590d14320bdc00131f2</model>
+        <model display_value="Send Message to Topic testing">0ccb37c6c3e53590d14320bdc00131f2</model>
         <model_id>0ccb37c6c3e53590d14320bdc00131f2</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_0ccb37c6c3e53590d14320bdc00131f2</name>
@@ -312,7 +312,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 21:23:27</sys_updated_on>
@@ -369,7 +369,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Send Message to Topic Bob">0ccb37c6c3e53590d14320bdc00131f2</model>
+        <model display_value="Send Message to Topic testing">0ccb37c6c3e53590d14320bdc00131f2</model>
         <model_id>0ccb37c6c3e53590d14320bdc00131f2</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_0ccb37c6c3e53590d14320bdc00131f2</name>
@@ -392,14 +392,14 @@
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 21:23:27</sys_created_on>
         <sys_id>f4ecf34ac3e53590d14320bdc001314b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:05:39</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 18:52:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -424,17 +424,17 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Send Message to Topic Bob">0ccb37c6c3e53590d14320bdc00131f2</flow>
+        <flow display_value="Send Message to Topic testing">0ccb37c6c3e53590d14320bdc00131f2</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:05:32</sys_created_on>
         <sys_id>99860cd6c3293590d14320bdc0013122</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:06:48</sys_updated_on>
+        <sys_updated_on>2023-10-06 17:58:31</sys_updated_on>
         <ui_id>798167fb-a02a-4bd0-a587-76f6b579b199</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=99860cd6c3293590d14320bdc0013122"/>
@@ -446,10 +446,10 @@
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:05:32</sys_created_on>
         <sys_id>9d860cd6c3293590d14320bdc0013124</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:05:32</sys_updated_on>
-        <value>bob</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 18:52:08</sys_updated_on>
+        <value>testing</value>
         <variable display_value="Topic">94f58896c3293590d14320bdc00131d7</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=99860cd6c3293590d14320bdc0013122"/>
@@ -487,17 +487,17 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Send Message to Topic Bob">0ccb37c6c3e53590d14320bdc00131f2</flow>
+        <flow display_value="Send Message to Topic testing">0ccb37c6c3e53590d14320bdc00131f2</flow>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:05:32</sys_created_on>
         <sys_id>d9860cd6c3293590d14320bdc0013129</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:06:48</sys_updated_on>
+        <sys_updated_on>2023-10-06 17:58:31</sys_updated_on>
         <ui_id>a5309870-53dd-45a0-b9f1-ca7497f65f7b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d9860cd6c3293590d14320bdc0013129"/>
@@ -587,9 +587,9 @@
         <sys_id>3cecf34ac3e53590d14320bdc001314e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 21:23:27</sys_updated_on>
@@ -610,9 +610,9 @@
         <sys_id>b4ecf34ac3e53590d14320bdc0013162</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 21:23:27</sys_updated_on>
@@ -633,9 +633,9 @@
         <sys_id>fcecf34ac3e53590d14320bdc001315e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 21:23:27</sys_updated_on>
@@ -659,10 +659,10 @@
         <internal_name>send_message_to_topic_bob</internal_name>
         <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛message Record","reference":"x_snc_kafka_messen_message","reference_display":"message","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <master>true</master>
-        <name>Send Message to Topic Bob</name>
+        <name>Send Message to Topic testing</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="Send Message to Topic Bob">0ccb37c6c3e53590d14320bdc00131f2</parent_flow>
+        <parent_flow display_value="Send Message to Topic testing">0ccb37c6c3e53590d14320bdc00131f2</parent_flow>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -674,15 +674,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b2860cd6c3293590d14320bdc00131f2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:05:38</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 18:52:17</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=b2860cd6c3293590d14320bdc00131f2"/>
@@ -691,16 +691,16 @@
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Send Message to Topic Bob">b2860cd6c3293590d14320bdc00131f2</flow>
+        <flow display_value="Send Message to Topic testing">b2860cd6c3293590d14320bdc00131f2</flow>
         <name>Created or Updated</name>
         <remote_sys_id/>
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:05:38</sys_created_on>
         <sys_id>8b864cd6c3293590d14320bdc0013169</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:05:39</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 18:52:17</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -769,7 +769,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -805,7 +805,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Send Message to Topic Bob">b2860cd6c3293590d14320bdc00131f2</model>
+        <model display_value="Send Message to Topic testing">b2860cd6c3293590d14320bdc00131f2</model>
         <model_id>b2860cd6c3293590d14320bdc00131f2</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_b2860cd6c3293590d14320bdc00131f2</name>
@@ -828,14 +828,14 @@
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:05:38</sys_created_on>
         <sys_id>3e864cd6c3293590d14320bdc0013117</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:05:38</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 18:52:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -853,7 +853,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -889,7 +889,7 @@
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Send Message to Topic Bob">b2860cd6c3293590d14320bdc00131f2</model>
+        <model display_value="Send Message to Topic testing">b2860cd6c3293590d14320bdc00131f2</model>
         <model_id>b2860cd6c3293590d14320bdc00131f2</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_b2860cd6c3293590d14320bdc00131f2</name>
@@ -912,14 +912,14 @@
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:05:38</sys_created_on>
         <sys_id>76864cd6c3293590d14320bdc001310d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:05:38</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 18:52:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -937,7 +937,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -973,7 +973,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Send Message to Topic Bob">b2860cd6c3293590d14320bdc00131f2</model>
+        <model display_value="Send Message to Topic testing">b2860cd6c3293590d14320bdc00131f2</model>
         <model_id>b2860cd6c3293590d14320bdc00131f2</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_b2860cd6c3293590d14320bdc00131f2</name>
@@ -996,14 +996,14 @@
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:05:38</sys_created_on>
         <sys_id>f6860cd6c3293590d14320bdc00131f4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:05:38</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 18:52:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1028,17 +1028,17 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Send Message to Topic Bob">b2860cd6c3293590d14320bdc00131f2</flow>
+        <flow display_value="Send Message to Topic testing">b2860cd6c3293590d14320bdc00131f2</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:05:38</sys_created_on>
         <sys_id>3e864cd6c3293590d14320bdc0013153</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:05:38</sys_updated_on>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 18:52:17</sys_updated_on>
         <ui_id>798167fb-a02a-4bd0-a587-76f6b579b199</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3e864cd6c3293590d14320bdc0013153"/>
@@ -1050,10 +1050,10 @@
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:05:38</sys_created_on>
         <sys_id>b2864cd6c3293590d14320bdc0013155</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:05:38</sys_updated_on>
-        <value>bob</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 18:52:16</sys_updated_on>
+        <value>testing</value>
         <variable display_value="Topic">94f58896c3293590d14320bdc00131d7</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=3e864cd6c3293590d14320bdc0013153"/>
@@ -1091,17 +1091,17 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Send Message to Topic Bob">b2860cd6c3293590d14320bdc00131f2</flow>
+        <flow display_value="Send Message to Topic testing">b2860cd6c3293590d14320bdc00131f2</flow>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:05:38</sys_created_on>
         <sys_id>8b864cd6c3293590d14320bdc0013167</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:05:38</sys_updated_on>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 18:52:17</sys_updated_on>
         <ui_id>a5309870-53dd-45a0-b9f1-ca7497f65f7b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8b864cd6c3293590d14320bdc0013167"/>
@@ -1191,9 +1191,9 @@
         <sys_id>be864cd6c3293590d14320bdc0013112</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 22:05:38</sys_updated_on>
@@ -1214,9 +1214,9 @@
         <sys_id>f6864cd6c3293590d14320bdc0013108</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 22:05:38</sys_updated_on>
@@ -1237,9 +1237,9 @@
         <sys_id>f6864cd6c3293590d14320bdc0013142</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
+        <sys_package display_value="Simple Kafka Messenger" source="x_snc_kafka_messen">05bba182876df5901444337e0ebb3587</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
+        <sys_scope display_value="Simple Kafka Messenger">05bba182876df5901444337e0ebb3587</sys_scope>
         <sys_update_name/>
         <sys_updated_by>richard.dunmow</sys_updated_by>
         <sys_updated_on>2023-09-29 22:05:38</sys_updated_on>
@@ -1252,24 +1252,24 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>0ccb37c6c3e53590d14320bdc00131f2</sys_id>
         <latest_snapshot>b2860cd6c3293590d14320bdc00131f2</latest_snapshot>
-        <compiler_build>glide-vancouver-07-06-2023__patchrtp-07-06-2023_07-06-2023_1408.zip</compiler_build>
+        <compiler_build>glide-vancouver-07-06-2023__patch1-08-30-2023_09-07-2023_2046.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=0ccb37c6c3e53590d14320bdc00131f2^sys_idNOT INcb864cd6c3293590d14320bdc001318f"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"cb864cd6c3293590d14320bdc001318f","name":"plan","plan_signature":null}}</plan>
         <plan_id>0ccb37c6c3e53590d14320bdc00131f2</plan_id>
-        <snapshot>73c6041ac3293590d14320bdc001315d</snapshot>
+        <snapshot>8f1117dc47fdb1103a47db1d416d432a</snapshot>
         <sys_created_by>richard.dunmow</sys_created_by>
         <sys_created_on>2023-09-29 22:05:39</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cb864cd6c3293590d14320bdc001318f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>richard.dunmow</sys_updated_by>
-        <sys_updated_on>2023-09-29 22:05:39</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 18:52:17</sys_updated_on>
         <trigger display_value="">c7864cd6c3293590d14320bdc001318d</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=0ccb37c6c3e53590d14320bdc00131f2"/>

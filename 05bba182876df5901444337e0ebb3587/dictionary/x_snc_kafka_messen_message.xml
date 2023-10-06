@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="labelCacheCleanUpExecuted=true" db_object_id="cffbad82876df5901444337e0ebb3598" label="message" max_length="40" name="x_snc_kafka_messen_message" type="collection">
+        <element label="key" max_length="255" name="key" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Message" max_length="255" name="message" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Message Type" max_length="40" name="message_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Received" sequence="100" value="received"/>
+                <element inactive_on_update="false" label="To Send" sequence="200" value="to_send"/>
+                <element inactive_on_update="false" label="Sent" sequence="300" value="sent"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,labelCacheCleanUpExecuted=true" default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
